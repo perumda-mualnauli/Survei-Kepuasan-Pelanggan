@@ -1,0 +1,179 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #242220;
+    text-align: center;
+    padding: 20px;
+}
+
+.dashboard-footer {
+    background-color: #9eb9d6;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+}
+
+.survey-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.form, .result {
+    width: 45%;
+    margin: 10px;
+    padding: 30px;
+    color: #000000;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+    border-radius: 10px;
+    text-align: left;
+}
+
+
+#stars {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#stars .star {
+    color: #ccc;
+    margin: 0 5px;
+    transition: color 0.3s;
+}
+
+#stars .star.selected {
+    color: #f8af39dc;
+}
+
+textarea {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin-top: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.result ul {
+    list-style: none;
+    padding: 0;
+}
+
+.result ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.result .star-bar {
+    display: flex;
+    font-size: 24px;
+    color: #f39c12;
+    margin-left: 10px;
+}
+
+.result .star-bar span {
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.result .star-bar .filled-star {
+    color: #f39c12;
+}
+
+.result .star-bar .filled-star.green {
+    color: #28a745;
+}
+
+.result .star-bar .filled-star.yellow {
+    color: #ffc107;
+}
+
+.result .star-bar .filled-star.orange {
+    color: #fd7e14;
+}
+
+.result .star-bar .filled-star.red {
+    color: #dc3545;
+}
+
+.rating-summary {
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    display: inline-block;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.average-rating p {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
+    color: #28a745;
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.bintang-container {
+    margin-top: 50px;
+}
+
+.bintang-number {
+    font-size: 1000px;
+    font-weight: bold;
+    color: #a82d2d;
+}
+
+.bintang-stars {
+    margin: 30px 0;
+}
+
+.bintang {
+    font-size: 32px;
+    margin: 0 2px;
+}
+
+.bintang.full {
+    color: #ffc107; /* Warna bintang penuh */
+}
+
+.bintang.half {
+    color: #ffc107; /* Warna bintang setengah */
+}
+
+.bintang.empty {
+    color: #ccc; /* Warna bintang kosong */
+}
+
+.bintang-count {
+    font-size: 18px;
+    color: #a82d2d;
+    margin-top: 10px;
+}
